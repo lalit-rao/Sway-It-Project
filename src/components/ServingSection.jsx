@@ -1,9 +1,10 @@
 import "./ServingSection.css"
-import {ladyCircle} from "../assets/images/index.js";
+import {ladyCircle, playButton} from "../assets/images/index.js";
 
 const ServingSection = () => {
     return (
         <>
+            <div className="main-container-ss">
         <div className="flexing-container-ss">
             <div className="flexing-container-text-ss">
                 <p className="flexing-container-text-1-ss">
@@ -17,6 +18,15 @@ const ServingSection = () => {
                 <img src={ladyCircle} alt=""/>
             </div>
         </div>
+            <div className="container-ss-small">
+                <div className="container-ss-small-icon">
+                    <img src={playButton} alt=""/>
+                </div>
+                <div className="container-ss-small-text">
+                    <p className="container-ss-small-text-1">See How</p>
+                </div>
+            </div>
+                </div>
         </>
     );
 };

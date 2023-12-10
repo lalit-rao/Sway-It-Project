@@ -3,6 +3,27 @@
     background-color: #fff;
 }
 
+.container-cus2-small {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container-cus2-small-icon img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.container-cus2-small-text {
+    text-align: center;
+}
+
+.container-cus2-small-text-1 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .flexing-container-cus2 {
     display: flex;
     align-items: center;

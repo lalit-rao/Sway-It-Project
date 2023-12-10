@@ -24,6 +24,7 @@ import BlogImage2 from './BlogImage2.png'
 import BlogImage3 from './BlogImage3.png'
 import BlogImage4 from './BlogImage4.png'
 import BlogImage5 from './BlogImage5.png'
+import playButton from './playButton.svg'
 
 
 export {
@@ -53,4 +54,5 @@ export {
     BlogImage3,
     BlogImage4,
     BlogImage5,
+    playButton,
 };

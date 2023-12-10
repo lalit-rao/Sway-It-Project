@@ -6,7 +6,7 @@ import AboutSection from "./AboutSection.jsx";
 import ServingSection from "./ServingSection.jsx";
 import ContactSection from "./ContactSection.jsx";
 import Footer from "./Footer.jsx";
-import "./landingPage.css";
+import "./LandingPage.css";
 
 const LandingPage = () => {
     return (

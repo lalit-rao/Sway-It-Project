@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2A2349;
+}
+
+.Navbar {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+
+.Hero {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.RootDiv {
+    /*background-image: url("./assets/background-svg.svg");*/
+    height: 100%;
+    background-repeat: repeat-y;
+    z-index: -1000;
+}

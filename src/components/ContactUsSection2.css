@@ -1,0 +1,217 @@
+.big-container-cus2 {
+    height : 135vh;
+    background-color: #fff;
+}
+
+.flexing-container-cus2 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    /*height: 100vh;*/
+    /*background-color: #fff;*/
+    padding: 0 0 0 0;
+}
+
+.flexing-container-text-cus2 {
+    margin-left: 200px;
+    max-width: 55%;
+}
+
+.flexing-container-text-1-cus2 {
+    color: #2A2349;
+    font-family: Prata, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.flexing-container-text-2-cus2 {
+    color: #282828;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.863% */
+}
+
+.flexing-container-image-cus2 {
+    margin-top: 80px;
+}
+
+#animated-box-cus2 {
+    margin-top: 100px;
+}
+
+#animated-box-cus2 .counterCards-text-cus2 {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+#animated-box-cus2 .counterCards-text-cus2 h1 {
+    margin-right: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+#animated-box-cus2 .cc-row-cus2 {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    /*position: relative;
+    top: 70px;*/
+}
+
+#animated-box-cus2 .cc-row-cus2 .cc-column-cus2 .cc-card-image-cus2 {
+    height: 70px;
+}
+
+#animated-box-cus2 .cc-row-cus2 .cc-column-cus2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*top: -35px;*/
+    width: 270px;
+    height: 240px;
+    color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+    background: #FFF;
+    border: 1px solid blue;
+
+}
+
+.counterCards-text-inside-cus2 {
+    color: black;
+    font-weight: 500;
+}
+
+#animated-box-cus2 .cc-card-cus2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius:5px;
+}
+
+#animated-box-cus2 .cc-card-name-cus2 {
+    color: #36394D;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600
+}
+
+#animated-box-cus2 .space {
+    margin-right: 5px;
+    font-size:24px;
+}
+
+.contactUs-text-cus2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.contactUs-socialIcons-cus2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.contactUs-socialIcons-small-cus2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 80px;
+    height: 71px;
+}
+
+.contactUs-socialIcons-small-cus2 img {
+    width: 60px;
+    height: 51px;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 425px) {
+    #animated-box .cc-row {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+    }
+
+    #animated-box .cc-row .cc-column {
+        display: block;
+        height: 110px;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    #animated-box .cc-row {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #animated-box .cc-row .cc-column {
+        display: block;
+        height: 140px;
+        width: 250px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #animated-box .cc-row {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #animated-box .cc-row .cc-column {
+        display: block;
+        height: 140px;
+        width: 250px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1330px) {
+    #animated-box .cc-row .cc-column {
+        margin-right: 20px;
+    }
+}

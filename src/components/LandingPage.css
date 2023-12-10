@@ -1,0 +1,112 @@
+.CounterCards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.UpcomingEvents {
+    height: 100vh;
+    margin: 30vh 0 30vh 0;
+    position: relative;
+}
+
+
+.PastEvents {
+    height: 130vh;
+    margin-bottom: 15vh;
+}
+
+.CarouselLandingGallery {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+/*
+.Convener {
+    position: relative;
+}*/
+
+.MainHero {
+    max-height: 100vh;
+}
+
+@media screen and (min-width: 319px) and (max-width: 768px) {
+    .UpcomingEvents {
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .PastEvents {
+        height: auto;
+        /*margin-bottom: 200px;*/
+    }
+
+    .CarouselLandingGallery {
+        position: relative;
+        max-width: 80%;
+        margin: 0 auto 10vh;
+        /*overscroll-behavior-x: contain;*/
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Convener {
+        position: relative;
+        margin-bottom: 200px;
+        height: auto;
+    }
+
+    .UpcomingEvents {
+        height: auto;
+        margin: 0 0 30vh;
+        /*margin: 120vh 0 0 0;*/
+        position: relative;
+    }
+
+    .Footer {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .PastEvents {
+        height: auto;
+        /*margin-bottom: 200px;*/
+    }
+
+    .CarouselLandingGallery {
+        position: relative;
+        max-width: 80%;
+        margin: 20vh auto 20vh;
+        /*overscroll-behavior-x: contain;*/
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .UpcomingEvents {
+        height: 100vh;
+        margin: 50vh 0 0 0;
+        position: relative;
+    }
+
+    .title-heading2 {
+        position: relative;
+        /*top: 200px;*/
+    }
+
+    .Footer {
+        height: auto;
+    }
+
+    .Convener {
+        position: relative;
+        /*margin-bottom: 200px;*/
+        height: auto;
+    }
+}

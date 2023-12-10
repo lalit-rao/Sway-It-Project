@@ -38,13 +38,13 @@ function Navbar() {
             <nav ref={navRef}>
                 <Link to="/">Home</Link>
                 <Link to="/">About Us</Link>
-                <a href="/">
+                <Link to="/">
                 <img className="logoContainer"
                      src={logo}
                      alt="logo"
                      height={60}
                 />
-            </a>
+            </Link>
                  <Link to="/Blogs">Blog</Link>
                 <Link to="/Contacts">Contact us</Link>
             </nav>

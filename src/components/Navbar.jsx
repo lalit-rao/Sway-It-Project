@@ -2,6 +2,7 @@ import {useRef, useState} from "react";
 // import {FaBars, FaTimes} from "react-icons/fa";
 import "../components/Navbar.css";
 import {logo, menu} from "../assets/images/index.js";
+import {Link} from "react-router-dom";
 
 
 function Navbar() {
@@ -35,8 +36,8 @@ function Navbar() {
             </a>
 
             <nav ref={navRef}>
-                <a className="hover-underline-animation" href="/">Home</a>
-                <a className="hover-underline-animation" href="/">About us</a>
+                <Link to="/">Home</Link>
+                <Link to="/">About Us</Link>
                 <a href="/">
                 <img className="logoContainer"
                      src={logo}
@@ -44,13 +45,8 @@ function Navbar() {
                      height={60}
                 />
             </a>
-                <a className="hover-underline-animation" href="/Blog-page">Blog</a>
-                <a className="hover-underline-animation" href="/Contact-us">Contact us</a>
-                {/*<button
-                    className="nav-btn nav-close-btn"
-                    onClick={showNavbar}>
-                    <FaTimes/>
-                </button>*/}
+                 <Link to="/Blogs">Blog</Link>
+                <Link to="/Contacts">Contact us</Link>
             </nav>
             <a href="/">
                 <button className="button-login">

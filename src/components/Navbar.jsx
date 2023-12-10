@@ -44,8 +44,8 @@ function Navbar() {
                      height={60}
                 />
             </a>
-                <a className="hover-underline-animation" href="/BlogPage">Blog</a>
-                <a className="hover-underline-animation" href="/ContactUs">Contact us</a>
+                <a className="hover-underline-animation" href="/Blog-page">Blog</a>
+                <a className="hover-underline-animation" href="/Contact-us">Contact us</a>
                 {/*<button
                     className="nav-btn nav-close-btn"
                     onClick={showNavbar}>

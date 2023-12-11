@@ -36,21 +36,21 @@ function Navbar() {
             </a>
 
             <nav ref={navRef}>
-                <Link to="/">Home</Link>
-                <Link to="/">About Us</Link>
-                <Link to="/">
+                <Link className="navbar-text" to="/">Home</Link>
+                <Link className="navbar-text" to="/">About Us</Link>
+                <Link className="navbar-text" to="/">
                 <img className="logoContainer"
                      src={logo}
                      alt="logo"
                      height={60}
                 />
             </Link>
-                 <Link to="/Blogs">Blog</Link>
-                <Link to="/Contacts">Contact us</Link>
+                 <Link className="navbar-text" to="/Blogs">Blog</Link>
+                <Link className="navbar-text" to="/Contacts">Contact us</Link>
             </nav>
             <a href="/">
                 <button className="button-login">
-                    <a href="/Login">Login</a>
+                    <a href="/">Login</a>
                 </button>
             </a>
             {/*<button

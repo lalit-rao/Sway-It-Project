@@ -25,6 +25,18 @@ import BlogImage3 from './BlogImage3.png'
 import BlogImage4 from './BlogImage4.png'
 import BlogImage5 from './BlogImage5.png'
 import playButton from './playButton.svg'
+import girl1 from './girl1.png'
+import girl2 from './girl2.png'
+import img1abv from './img1abv.png'
+import img2abv from './img2abv.png'
+import img3abv from './img3abv.png'
+import imgbigheart from './imgbigheart.svg'
+import imgheart from './imgheart.svg'
+import imgcomment from './imgcomment.svg'
+import imgsmiley from './imgsmiley.svg'
+import imguser from './imguser.svg'
+import imgthumb from './imgthumb.svg'
+
 
 
 export {
@@ -55,4 +67,15 @@ export {
     BlogImage4,
     BlogImage5,
     playButton,
+    girl1,
+    girl2,
+    img1abv,
+    img2abv,
+    img3abv,
+    imgbigheart,
+    imgheart,
+    imgcomment,
+    imgsmiley,
+    imguser,
+    imgthumb,
 };

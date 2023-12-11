@@ -20,10 +20,8 @@ const BlogLatestSection = () => {
                     <div className="image-container-1-bls">
                         <img src={BlogImage1} alt=""/>
                         <div className="overlay-text-bls">
-                            <h1>Lalit</h1>
                         </div>
                     </div>
-
                 </div>
                 <div className="blog-container-small-1-bls">
                     <div className="image-container-1-bls">

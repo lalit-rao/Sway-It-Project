@@ -16,10 +16,27 @@
     --textColor: #fffcfc;
 }
 
+
+.navbar-text {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar-text:hover {
+    color: #2979FF;
+}
+
+.navbar-text:focus,
+.navbar-text:active {
+    color: #2979FF;
+}
+
 header {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     height: 80px;
     padding: 0 0rem;
     color: var(--textColor);
@@ -44,6 +61,7 @@ nav a {
     font-family: Poppins, serif;
     background-color: #2979FF;
 }
+
 .button-login a {
     font-weight: 700;
     font-size: 1.2rem;

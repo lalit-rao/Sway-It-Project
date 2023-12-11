@@ -2,7 +2,7 @@
 
 
 .hero {
-    height: 100vh;
+    height: 134vh;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -41,4 +41,109 @@
     width: 100%;
     height: 90%;
     top: 10%;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    padding: 4% 0;
+    position: relative;
+    box-sizing: border-box;
+    top: 15%;
+    margin-right: 50px;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    line-height: 0;
+    height: 430px;
+    z-index: 2;
+}
+
+.box > img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    transition: .5s;
+    border-radius: 22px;
+    z-index: 2;
+}
+
+.box:hover {
+    flex: 1 1 50%;
+}
+
+.box:hover > img {
+    width: 100%;
+    height: 430px;
+}
+
+.container-box-girls {
+    display: inline-block;
+    position: absolute;
+}
+
+.girl1-box {
+    position: absolute;
+    bottom: -230px;
+    left: 170%;
+    z-index: 10;
+}
+
+.girl2-box {
+    position: relative;
+    bottom: -480px;
+    left: 306%;
+    z-index: 10;
+}
+
+.itemBox1 {
+    position: relative;
+    top: 310px;
+    left: 289%;
+    z-index: 10;
+}
+
+.itemBox2 {
+    position: relative;
+    top: 80px;
+    left: 259%;
+    z-index: 10;
+}
+
+.itemBox3 {
+    position: relative;
+    top: -140px;
+    left: 310%;
+    z-index: 10;
+}
+
+.itemBox4 {
+    position: relative;
+    top: -160px;
+    left: 180%;
+    z-index: 10;
+}
+
+.itemBox5 {
+    position: relative;
+    top: -645px;
+    left: 300%;
+    z-index: 10;
+}
+
+.box-1-rex, .box-2-rex, .box-3-rex {
+    color: #ffffff;
+    font-family: Prata, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-1:hover .box-1-rex {
+    color: #2979FF;
 }

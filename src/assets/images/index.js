@@ -50,7 +50,7 @@ import twitter2 from './twitter.svg'
 import youtube from './Youtube.svg'
 import tiktok from './Tik tok.svg'
 import snapchat from './Snapchat.svg'
-import smchosen from './smChosen.svg'
+import smchosen from './smchosen.svg'
 
 
 

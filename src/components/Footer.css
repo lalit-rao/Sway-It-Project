@@ -8,7 +8,7 @@
     justify-content: space-evenly;
 }
 
-.footer-container .footer-container-1-text-1,.footer-container .footer-container-3-text-1 {
+.footer-container .footer-container-1-text-1, .footer-container .footer-container-3-text-1 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 20px;

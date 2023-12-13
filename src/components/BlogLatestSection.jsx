@@ -47,29 +47,29 @@ const BlogLatestSection = () => {
                 </div>
             </div>
             <div className="button-blog-bls">
-                    <p className="button-text-bls">
-                        Explore More
-                    </p>
+                <p className="button-text-bls">
+                    Explore More
+                </p>
             </div>
             <section>
-                    <div className="contactUs-text-cus2">
-                        <p className="contactUs-text-1-cus2">Follow Our Social Media</p>
+                <div className="contactUs-text-cus2">
+                    <p className="contactUs-text-1-cus2">Follow Our Social Media</p>
+                </div>
+                <div className="contactUs-socialIcons-cus2">
+                    <div className="contactUs-socialIcons-small-cus2">
+                        <img src={yt} alt=""/>
                     </div>
-                    <div className="contactUs-socialIcons-cus2">
-                        <div className="contactUs-socialIcons-small-cus2">
-                            <img src={yt} alt=""/>
-                        </div>
-                        <div className="contactUs-socialIcons-small-cus2">
-                            <img src={istg} alt=""/>
-                        </div>
-                        <div className="contactUs-socialIcons-small-cus2">
-                            <img src={twitter} alt=""/>
-                        </div>
-                        <div className="contactUs-socialIcons-small-cus2">
-                            <img src={music} alt=""/>
-                        </div>
+                    <div className="contactUs-socialIcons-small-cus2">
+                        <img src={istg} alt=""/>
                     </div>
-                </section>
+                    <div className="contactUs-socialIcons-small-cus2">
+                        <img src={twitter} alt=""/>
+                    </div>
+                    <div className="contactUs-socialIcons-small-cus2">
+                        <img src={music} alt=""/>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };

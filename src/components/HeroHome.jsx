@@ -2,13 +2,14 @@ import "./HeroHome.css"
 import {
     girl1,
     girl2,
-    heroImage,
     img1abv,
     img2abv,
     img3abv,
     imgbigheart,
-    imgcomment, imgheart, imgsmiley,
-    imgthumb, imguser
+    imgcomment,
+    imgheart,
+    imgsmiley,
+    imgthumb
 } from "../assets/images/index.js";
 
 function HeroHome() {
@@ -16,8 +17,8 @@ function HeroHome() {
         <div className="hero">
             <div className="hero-text">
                 <p className="box-1-rex">Be Imagine,</p>
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    <p className="box-2-rex">Be Artistic, and</p> <p className="box-3-rex">let's Engage</p>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                <p className="box-2-rex">Be Artistic, and</p> <p className="box-3-rex">let's Engage</p>
                 <p className="hero-text-small">Pellentesque vivamus molestie efficitur viverra hendrerit in pretium
                     semper natoque</p>
             </div>
@@ -59,7 +60,7 @@ function HeroHome() {
                 </div>
             </div>
         </div>
-)
+    )
 }
 
 export default HeroHome;

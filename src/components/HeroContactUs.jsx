@@ -3,8 +3,8 @@ import {ContactUsHero} from "../assets/images/index.js";
 
 const HeroContactUs = () => {
     return (
-          <div className="hero-cus">
-              <div className="hero-image-cus">
+        <div className="hero-cus">
+            <div className="hero-image-cus">
                 <img src={ContactUsHero} alt=""/>
             </div>
             <div className="hero-text-cus">

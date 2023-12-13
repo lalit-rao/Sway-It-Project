@@ -1,0 +1,65 @@
+.main-container-smc {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: space-between;
+    /*height: 100vh;*/
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.main-container-choose {
+    height: 450px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.smc-choose-container-small {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 150px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #F2F8FC;
+    border-radius: 32%;
+    cursor: pointer;
+}
+
+.smc-choose-container-small:focus {
+    border: 1px solid #2979FF;
+}
+
+.smc-choose-container-small:hover {
+    border: 1px solid #2979FF;
+}
+
+.button-smc {
+    background-color: #7366FF;
+    height: 40px;
+    width: 450px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12%;
+    left: 35%;
+}
+
+.button-smc > a {
+    color: white;
+    text-decoration: none;
+}

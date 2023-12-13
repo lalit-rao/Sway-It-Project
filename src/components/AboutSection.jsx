@@ -27,7 +27,8 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="card-box-content-as">
-                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper natoque.</p>
+                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper
+                            natoque.</p>
                     </div>
                 </div>
                 <div className="card-box-as">
@@ -40,7 +41,8 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="card-box-content-as">
-                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper natoque.</p>
+                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper
+                            natoque.</p>
                     </div>
                 </div>
                 <div className="card-box-as">
@@ -53,7 +55,8 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="card-box-content-as">
-                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper natoque.</p>
+                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper
+                            natoque.</p>
                     </div>
                 </div>
                 <div className="card-box-as">
@@ -66,7 +69,8 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="card-box-content-as">
-                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper natoque.</p>
+                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper
+                            natoque.</p>
                     </div>
                 </div>
                 <div className="card-box-as">
@@ -79,7 +83,8 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="card-box-content-as">
-                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper natoque.</p>
+                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper
+                            natoque.</p>
                     </div>
                 </div>
                 <div className="card-box-as">
@@ -92,7 +97,8 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="card-box-content-as">
-                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper natoque.</p>
+                        <p>Suscipit elit magnis. Auctor penatibus convallis nulla porta hendrerit in pretium semper
+                            natoque.</p>
                     </div>
                 </div>
             </div>

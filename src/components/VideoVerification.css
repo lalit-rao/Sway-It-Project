@@ -1,0 +1,35 @@
+.Login-main-container {
+    background-image: url("src/assets/images/login-bg.png");
+    height: 106vh;
+    margin: -0px;
+    padding: -0px;
+}
+
+.video-verification-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /*z-index: 40;*/
+}
+
+.video-verification-form > img {
+    height: 676px;
+    width: 1140px;
+}
+
+.video-verification-form-button {
+    height: 60px;
+    background-color: transparent;
+    width: 320px;
+    position: relative;
+    left: 60%;
+    top: -15%;
+    font-size: 20px;
+    z-index: 4;
+    border: 1px solid transparent;
+}
+
+.video-verification-form-button > a {
+    color: transparent;
+}

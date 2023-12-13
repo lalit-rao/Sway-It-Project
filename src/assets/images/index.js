@@ -36,6 +36,21 @@ import imgcomment from './imgcomment.svg'
 import imgsmiley from './imgsmiley.svg'
 import imguser from './imguser.svg'
 import imgthumb from './imgthumb.svg'
+import loginBg from './login-bg.png'
+import loginLogoPage from './login-logo-page.png'
+import videoVerify from './videoVerify.png'
+import otpVerify from './otpverify.svg'
+import smchoosing from './smChoosing.svg'
+import appy from './app.svg'
+import beReal from './beReal.svg'
+import facebook from './Facebook.svg'
+import instagram from './Instagram.svg'
+import linkedin from './Linkedin.svg'
+import twitter2 from './twitter.svg'
+import youtube from './Youtube.svg'
+import tiktok from './Tik tok.svg'
+import snapchat from './Snapchat.svg'
+import smchosen from './smChosen.svg'
 
 
 
@@ -78,4 +93,19 @@ export {
     imgsmiley,
     imguser,
     imgthumb,
+    loginBg,
+    loginLogoPage,
+    videoVerify,
+    otpVerify,
+    smchoosing,
+    appy,
+    beReal,
+    facebook,
+    instagram,
+    linkedin,
+    twitter2,
+    youtube,
+    tiktok,
+    snapchat,
+    smchosen,
 };

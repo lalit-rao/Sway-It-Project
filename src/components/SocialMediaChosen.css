@@ -1,0 +1,43 @@
+.Login-main-container {
+    background-image: url("src/assets/images/login-bg.png");
+    height: 106vh;
+    margin: -0px;
+    padding: -0px;
+}
+
+.video-verification-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /*z-index: 40;*/
+}
+
+.video-verification-form > img {
+    height: 406px;
+    width: 943px;
+    margin-top: 60px;
+}
+
+.button-smcc {
+    background-color: #7366FF;
+    height: 40px;
+    width: 450px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12%;
+    left: 35%;
+}
+
+.button-smcc > a {
+    color: white;
+    text-decoration: none;
+}

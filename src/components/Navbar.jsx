@@ -39,18 +39,18 @@ function Navbar() {
                 <Link className="navbar-text" to="/">Home</Link>
                 <Link className="navbar-text" to="/">About Us</Link>
                 <Link className="navbar-text" to="/">
-                <img className="logoContainer"
-                     src={logo}
-                     alt="logo"
-                     height={60}
-                />
-            </Link>
-                 <Link className="navbar-text" to="/Blogs">Blog</Link>
+                    <img className="logoContainer"
+                         src={logo}
+                         alt="logo"
+                         height={60}
+                    />
+                </Link>
+                <Link className="navbar-text" to="/Blogs">Blog</Link>
                 <Link className="navbar-text" to="/Contacts">Contact us</Link>
             </nav>
             <a href="/">
                 <button className="button-login">
-                    <a href="/">Login</a>
+                    <a href="/Login">Login</a>
                 </button>
             </a>
             {/*<button

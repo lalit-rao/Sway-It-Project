@@ -50,7 +50,7 @@ function Navbar() {
             </nav>
             <a href="/">
                 <button className="button-login">
-                    <a href="/Login">Login</a>
+                    <a href="/LoginPage">Login</a>
                 </button>
             </a>
             {/*<button

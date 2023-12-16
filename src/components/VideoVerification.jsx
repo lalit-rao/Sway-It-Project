@@ -1,5 +1,6 @@
 import './VideoVerification.css'
 import {loginLogoPage, videoVerify} from "../assets/images/index.js";
+import {Link} from "react-router-dom";
 
 
 const VideoVerification = () => {
@@ -12,7 +13,7 @@ const VideoVerification = () => {
                 <img src={videoVerify} alt=""/>
             </div>
             <button className="video-verification-form-button">
-                <a href="/OTPVerification">hjghjhjghgfghjgt</a>
+                <Link to="/OTPVerification">hjghjhjghgfghjgt</Link>
             </button>
         </div>
     );

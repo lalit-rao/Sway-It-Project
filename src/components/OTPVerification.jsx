@@ -1,5 +1,6 @@
 import {loginLogoPage, otpVerify} from "../assets/images/index.js";
 import './OTPVerification.css'
+import {Link} from "react-router-dom";
 
 const OtpVerification = () => {
     return (
@@ -11,7 +12,7 @@ const OtpVerification = () => {
                 <img src={otpVerify} alt=""/>
             </div>
             <button className="otp-verification-form-button">
-                <a href="/SocialMediaChoosing">hjghjhjghgfghjgt</a>
+                <Link to="/SocialMediaChoosing">hjghjhjghgfghjgt</Link>
             </button>
         </div>
     );

@@ -1,5 +1,6 @@
 import {loginLogoPage} from "../assets/images/index.js";
 import './LoginPage.css';
+import {Link} from "react-router-dom";
 
 const LoginPage = () => {
     return (
@@ -35,7 +36,7 @@ const LoginPage = () => {
                         </label>
                     </div>
                     <div className="button-box">
-                        <a className="remember-box-text-2" href="/VideoVerification">Create Account</a>
+                        <Link className="remember-box-text-2" to="/VideoVerification">Create Account</Link>
                     </div>
                 </form>
             </div>

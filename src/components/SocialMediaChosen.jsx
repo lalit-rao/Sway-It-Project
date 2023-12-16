@@ -1,5 +1,6 @@
 import {loginLogoPage, smchosen} from "../assets/images/index.js";
 import './SocialMediaChosen.css'
+import {Link} from "react-router-dom";
 
 const SocialMediaChosen = () => {
     return (
@@ -7,11 +8,11 @@ const SocialMediaChosen = () => {
             <div className="login-logo">
                 <img src={loginLogoPage} alt="Logo"/>
             </div>
-            <div className="video-verification-form">
+            <div className="video-verification-form-smcc">
                 <img src={smchosen} alt=""/>
             </div>
             <div className="button-smcc">
-                <a href="/SocialMediaChosen">Proceed</a>
+                <Link to="/">Proceed</Link>
             </div>
         </div>
     );

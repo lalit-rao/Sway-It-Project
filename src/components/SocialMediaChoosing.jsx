@@ -12,6 +12,7 @@ import {
     twitter2,
     youtube
 } from "../assets/images/index.js";
+import {Link} from "react-router-dom";
 
 const SocialMediaChoosing = () => {
     return (
@@ -54,7 +55,7 @@ const SocialMediaChoosing = () => {
                 </div>
             </div>
             <div className="button-smc">
-                <a href="/SocialMediaChosen">Proceed</a>
+                <Link to="/SocialMediaChosen">Proceed</Link>
             </div>
         </div>
     );

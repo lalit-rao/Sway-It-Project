@@ -1,5 +1,6 @@
 import {loginLogoPage} from "../assets/images/index.js";
 import './LoginPage.css';
+import {Link} from "react-router-dom";
 
 const LoginPage = () => {
     return (
@@ -33,11 +34,11 @@ const LoginPage = () => {
                         </div>
                     </div>
                     <div className="button-box">
-                        <a href="/">Sign In</a>
+                        <Link to="/" >Sign In</Link>
                     </div>
                     <div className="under-button">
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <p className="under-button-text">Don't have an account? <a href="/Register">Create Account</a>
+                        <p className="under-button-text">Don't have an account? <Link to="/Register">Create Account</Link>
                         </p>
                     </div>
                 </form>

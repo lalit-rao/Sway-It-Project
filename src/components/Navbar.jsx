@@ -50,7 +50,7 @@ function Navbar() {
             </nav>
             <a href="/">
                 <button className="button-login">
-                    <Link className="navbar-text" to="/Login">Login</Link>
+                    <Link className="navbar-text login-text" to="/Login">Login</Link>
                 </button>
             </a>
             {/*<button

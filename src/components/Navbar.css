@@ -70,6 +70,14 @@ nav a {
     color: #fff;
 }
 
+.login-text {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-text:hover {
+    color: #fff;
+}
 
 .hover-underline-animation {
     display: inline-block;
